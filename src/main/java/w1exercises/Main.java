@@ -1,5 +1,6 @@
 package w1exercises;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Locale;
 import java.util.Scanner;
@@ -80,8 +81,11 @@ public class Main {
 //        2. Implement a way of finding a list eliminating the duplicates
 //        from a list.
 
-        int[] numbers = Coll.getArrayFromUser();
-
+//        int[] numbers = Coll.getArrayFromUser();
+//        ArrayList<Integer> numbersND = Coll.eliminateDuplicates(numbers);
+//        for (int n : numbersND){
+//            System.out.println(n);
+//        }
 
 
     }

@@ -1,6 +1,7 @@
 package w1exercises;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -32,6 +33,20 @@ public abstract class Coll {
         int[] result = new int[st.length];
         for (int i=0; i<st.length; i++){
             result[i] = Integer.parseInt(st[i]);
+        }
+        return result;
+    }
+
+    public static ArrayList<Integer> eliminateDuplicates(int[] numbers) {
+        ArrayList<Integer> result = new ArrayList<>();
+        Arrays.sort(numbers);
+        for(int i=0; i<numbers.length-1;i++){
+            if(numbers[i] != numbers[i+1]){
+                result.add(numbers[i]);
+            }
+        }
+        if(numbers[numbers.length-1] != numbers[numbers.length-2]){
+            result.add(numbers[numbers.length-1]);
         }
         return result;
     }
