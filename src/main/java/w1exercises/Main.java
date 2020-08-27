@@ -88,6 +88,21 @@ public class Main {
 //        }
 
 
+//        3. Write a program that returns the digits of number in
+//        descending order.
+
+//        4. Implement your own version of a stack and its main
+//        functionalities (pop, push, peek)
+
+//        5. Reverse a string using only a stack .
+
+//        6. Write a program that check if a word is symmetric, ignoring
+//        cases (i.e. AbdBa is symmetric).
+
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine();
+//        System.out.println(Coll.isSymmetric(input));
+
     }
 
 

@@ -50,4 +50,15 @@ public abstract class Coll {
         }
         return result;
     }
+
+    public static boolean isSymmetric(String input) {
+        char[] array = input.trim().toLowerCase().toCharArray();
+        int length = array.length;
+        for(int i=0; i<length/2; i++){
+            if(array[i] != array[length-i-1]){
+                return false;
+            }
+        }
+        return true;
+    }
 }
