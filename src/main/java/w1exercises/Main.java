@@ -1,5 +1,6 @@
 package w1exercises;
 
+import java.util.HashSet;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -68,6 +69,18 @@ public class Main {
 //        1. Given a list of integers, return a sub list that contains only the
 //        prime numbers
 
+//        int[] numbers = Coll.getArrayFromUser();
+//        ArrayList<Integer> primes = Coll.findPrimes(numbers);
+//        System.out.println("These numbers are prime:");
+//        for(int n : primes){
+//            System.out.print(n + " ");
+//        }
+
+
+//        2. Implement a way of finding a list eliminating the duplicates
+//        from a list.
+
+        int[] numbers = Coll.getArrayFromUser();
 
 
 
