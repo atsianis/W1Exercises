@@ -1,9 +1,6 @@
 package w1exercises;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -60,5 +57,15 @@ public abstract class Coll {
             }
         }
         return true;
+    }
+
+    public static void reverseStringWithStack(String input) {
+        Stack<Character> stack = new Stack<>();
+        for(char c : input.toCharArray()){
+            stack.push(c);
+        }
+        while(!stack.empty()){
+            System.out.print(stack.pop());
+        }
     }
 }

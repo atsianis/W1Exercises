@@ -1,9 +1,6 @@
 package w1exercises;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -94,7 +91,29 @@ public class Main {
 //        4. Implement your own version of a stack and its main
 //        functionalities (pop, push, peek)
 
+//        CustomStack<String> cs = new CustomStack<>();
+//        cs.push("I");
+//        cs.push("am");
+//        cs.push("actually");
+//        cs.push("not a real stack.... OK bye :)");
+//        System.out.println("size: "+cs.size());
+//        System.out.println(cs.peek());
+//        System.out.println(cs.pop());
+//        System.out.println(cs.size());
+//        System.out.println(cs.peek());
+//        System.out.println(cs.pop());
+//        System.out.println(cs.pop());
+//        System.out.println(cs.pop());
+//        System.out.println(cs.pop());
+
+
+
 //        5. Reverse a string using only a stack .
+//        System.out.println("Give a string and the stack will reverse it");
+//        Scanner scanner = new Scanner(System.in);
+//        String input = scanner.nextLine();
+//        Coll.reverseStringWithStack(input);
+
 
 //        6. Write a program that check if a word is symmetric, ignoring
 //        cases (i.e. AbdBa is symmetric).
