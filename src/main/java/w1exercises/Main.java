@@ -1,6 +1,9 @@
 package w1exercises;
 
+import java.sql.SQLOutput;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -121,6 +124,18 @@ public class Main {
 //        Scanner scanner = new Scanner(System.in);
 //        String input = scanner.nextLine();
 //        System.out.println(Coll.isSymmetric(input));
+
+
+//---------------------------------PASSWORD CHECK------------------------------
+//        System.out.println("Insert your password");
+//        Scanner scanner = new Scanner(System.in);
+//        String password = scanner.nextLine();
+//        Password.checkStrength(password);
+
+        Pattern pattern = Pattern.compile(".*?(?i)(?:([a-z0-9]\\1{2,})).*?");
+        Matcher matcher = pattern.matcher("cscffgs3h");
+        System.out.println(matcher.matches());
+
 
     }
 
