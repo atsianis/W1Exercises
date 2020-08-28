@@ -8,7 +8,7 @@ public abstract class Password {
     private static Pattern pattern;
     private static Matcher matcher;
     private static String[] criterias = {".*?[A-Z].*?" , ".*?[a-z].*?", ".*?[0-9].*?", ".*?[@#$%^&+=].*?",
-            "(?i)(?:([a-z0-9])\\\\1{2,})*"};
+            "(?:([a-zA-Z0-9@#$%^&+=])\\1?(?!\\1))+"};
 
     private static String[] mandatoryCriterias = {".{8,}", "\\S+"};
 

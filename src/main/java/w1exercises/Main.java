@@ -127,14 +127,10 @@ public class Main {
 
 
 //---------------------------------PASSWORD CHECK------------------------------
-//        System.out.println("Insert your password");
-//        Scanner scanner = new Scanner(System.in);
-//        String password = scanner.nextLine();
-//        Password.checkStrength(password);
-
-        Pattern pattern = Pattern.compile(".*?(?i)(?:([a-z0-9]\\1{2,})).*?");
-        Matcher matcher = pattern.matcher("cscffgs3h");
-        System.out.println(matcher.matches());
+        System.out.println("Insert your password");
+        Scanner scanner = new Scanner(System.in);
+        String password = scanner.nextLine();
+        Password.checkStrength(password);
 
 
     }
